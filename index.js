@@ -4,10 +4,6 @@ const navSlide = () => {
     const shade = document.querySelector('.shade');
     const readMore = document.querySelector('.read-more');
 
-
-
-
-
     burger.addEventListener('click', () => {
         //toggle nav
         nav.classList.toggle('nav-active');
